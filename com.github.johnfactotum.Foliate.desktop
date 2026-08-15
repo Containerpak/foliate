@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Foliate
+Comment=Read EPUB, MOBI, AZW and comic book files.
+Exec=foliate %U
+Icon=com.github.johnfactotum.Foliate
+Terminal=false
+Categories=Office;Viewer;
