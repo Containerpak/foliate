@@ -4,7 +4,7 @@
   "name": "Foliate",
   "description": "Read EPUB, MOBI, AZW and comic book files.",
   "version": "3.3.0",
-  "image": "ghcr.io/containerpak/foliate@sha256:7b74c6a2a4d6f41f51e46bead9596f15e7b9c547fec27d1e0451d1d5357b194e",
+  "image": "ghcr.io/containerpak/foliate@sha256:4d5ed2afbdef59d96c7afe9831b674ea3758c632db36d84a0fa1822d963bf75c",
   "binaries": [
     "/usr/bin/foliate"
   ],
