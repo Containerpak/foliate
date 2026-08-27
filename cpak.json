@@ -1,10 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "Foliate",
   "description": "Read EPUB, MOBI, AZW and comic book files.",
   "version": "3.3.0",
-  "image": "ghcr.io/containerpak/foliate:main",
+  "image": "ghcr.io/containerpak/foliate@sha256:ebd751b9b494ec4e649da334ac21fb73750c1f58012cfb0363bf54d93a9eea69",
   "binaries": [
     "/usr/bin/foliate"
   ],
@@ -15,16 +15,11 @@
   "addons": [],
   "idle_time": 0,
   "override": {
-    "socketX11": true,
     "socketWayland": true,
     "socketPulseAudio": true,
-    "socketSessionBus": true,
-    "socketSystemBus": false,
     "socketSshAgent": false,
     "socketCups": false,
     "socketGpgAgent": false,
-    "socketAtSpiBus": true,
-    "socketBluetooth": false,
     "deviceDri": true,
     "deviceKvm": false,
     "deviceShm": true,
@@ -57,7 +52,6 @@
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,
-    "asRoot": false,
-    "allowedHostCommands": []
+    "asRoot": false
   }
 }
